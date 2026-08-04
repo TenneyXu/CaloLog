@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 移动端底部安全区 */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

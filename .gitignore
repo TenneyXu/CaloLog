@@ -1,0 +1,13 @@
+# 依赖与构建产物（不要上传）
+node_modules/
+dist/
+
+# 日志与临时文件
+npm-debug.log*
+*.local
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
